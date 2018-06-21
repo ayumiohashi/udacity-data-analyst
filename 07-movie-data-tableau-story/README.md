@@ -1,7 +1,7 @@
 ## Movie Data Tableau Story
 
 Analyzed movie data and created several data visualizations.  
-[Movie Data Tableau Public workbook](https://public.tableau.com/profile/ayumi.ohashi#!/vizhome/MovieDataModified/MovieData)
+Link to my [Movie Data Tableau Public workbook](https://public.tableau.com/profile/ayumi.ohashi#!/vizhome/MovieDataModified/MovieData)
 
 ### Data
 

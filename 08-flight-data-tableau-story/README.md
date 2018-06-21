@@ -1,7 +1,7 @@
 ## Flight Data Tableau Story
 
 Analyzed 2008 flight data and created several data visualizations.  
-[Flight Data Tableau Public workbook](https://public.tableau.com/views/FlightDataModified/FlightDataAnalysis)
+Link to my [Flight Data Tableau Public workbook](https://public.tableau.com/views/FlightDataModified/FlightDataAnalysis)
 
 ### Data
 

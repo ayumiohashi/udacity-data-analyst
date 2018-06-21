@@ -1,9 +1,6 @@
 # udacity-data-analyst
  Projects from Data Analyst Nanodegree Program at Udacity
 
-
-#### Projects
-
 \# | Description | Used
 ------------ | ------------- | -------------
 01 | US Bike Share Analysis | Python
