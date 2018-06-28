@@ -685,9 +685,7 @@ Wines with alcohol percentage less than its mean and citric acid/volatile acidit
 
 # Multivariate Analysis
 
-### Talk about some of the relationships you observed in this part of the \
-investigation. Were there features that strengthened each other in terms of \
-looking at your feature(s) of interest?
+### Talk about some of the relationships you observed in this part of the investigation. Were there features that strengthened each other in terms of looking at your feature(s) of interest?
 
 In Bivariate analysis, I observed that higher percentage of alcohol, lower volatile acidity, and higher citric acid each leads to better quality wines. In Multivariate analysis, I investigated combination of the features and see if wines have all 3 properties of features leads to quality wines. That seem to be true. 
 
