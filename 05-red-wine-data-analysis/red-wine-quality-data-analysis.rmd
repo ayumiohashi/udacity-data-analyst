@@ -1,5 +1,4 @@
 # Red Wine Quality Analysis
-========================================================
 
 ## Table of Contents
 <ul>
