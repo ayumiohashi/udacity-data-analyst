@@ -5,7 +5,7 @@ Link to my [Movie Data Tableau Public workbook](https://public.tableau.com/profi
 
 ### Data
 
-Provided by [The Movie DB](https://www.themoviedb.org/?language=en)
+[The Movie Database](https://www.themoviedb.org/?language=en) provides movie data for public use.
 
 Name | Description
 ------------ | -------------

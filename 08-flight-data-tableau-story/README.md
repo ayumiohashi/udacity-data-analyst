@@ -1,11 +1,11 @@
 ## Flight Data Tableau Story
 
-Analyzed 2008 flight data and created several data visualizations.  
+Analyzed 2008 [flight data](http://stat-computing.org/dataexpo/2009/the-data.html) and created several data visualizations.  
 Link to my [Flight Data Tableau Public workbook](https://public.tableau.com/views/FlightDataModified/FlightDataAnalysis)
 
 ### Data
 
-Information on United State flight delays and performance comes from RITA.
+Information on United State flight delays and performance comes from [RITA](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp).
 
 Name | Description
 ------------ | -------------
