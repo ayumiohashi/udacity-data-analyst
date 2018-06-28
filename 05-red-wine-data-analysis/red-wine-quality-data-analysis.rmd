@@ -1,4 +1,4 @@
-Red Wine Quality Analysis
+# Red Wine Quality Analysis
 ========================================================
 
 ## Table of Contents
@@ -52,7 +52,6 @@ Which chemical properties and how are they influence the quality of red wines?
 # The other parameters for "message" and "warning" should also be set to FALSE
 # for other code chunks once you have verified that each plot comes out as you
 # want it to. This will clean up the flow of your report.
-
 library(ggplot2)
 library(gridExtra)
 library(GGally)
@@ -66,9 +65,9 @@ library(plyr)
 ```{r echo=FALSE, Load_the_Data}
 
 # Load the Data
-setwd('C:/Users/ayumi/Documents/Udacity/Data Analyst 2/Project/Project 2 - Explore and Summarize Data')
+setwd('C:/Users/ayumi/Documents/git/udacity-data-analyst/05-red-wine-data-analysis/data/')
 
-red_wine <- read.csv('wineQualityReds.csv') 
+red_wine <- read.csv('wine-quality-reds.csv') 
 
 ```
 <a id='univariate-analysis'></a>
@@ -436,7 +435,7 @@ The strongest correlation I found with quality was alcohol percentage. It's a po
 By looking at individual features, I observed that higher percentage of alcohol, lower volatile acidity, and higher citric acid each leads to quality wines.  I would like to investigate if this statement is still true when combination of these features is present in wines.
 
 <div id="bg">
-  <img src="Multivariate_plot_areas.png" alt="Multivariate plot areas">
+  <img src="image/Multivariate_plot_areas.png" alt="Multivariate plot areas">
 </div> 
 
 I am dividing areas of scatter plot to area 1, 2, 3, and 4.<br/>
