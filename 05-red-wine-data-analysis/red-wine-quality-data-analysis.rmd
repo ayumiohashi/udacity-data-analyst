@@ -245,17 +245,14 @@ There are 1599 red wines in dataset with 13 features.
 
 The main features in the dataset is quality and features impact sweetness and acidity of wine, i.e., fixed and volatile acidity, citric acid, residual sugar, and alcohol. I like to investigate which of those features have strong correlation to wine quality.
 
-### What other features in the dataset do you think will help support your \
-investigation into your feature(s) of interest?
+### What other features in the dataset do you think will help support your investigation into your feature(s) of interest?
 
 I think Chlorides which indicates salt in wine, pH level which measures the acidity, and density which is affected by sugar and alcohol content will support my investigation. 
 
 ### Did you create any new variables from existing variables in the dataset?
 I have created new column for quality factor data type.
 
-### Of the features you investigated, were there any unusual distributions? \
-Did you perform any operations on the data to tidy, adjust, or change the form \
-of the data? If so, why did you do this?
+### Of the features you investigated, were there any unusual distributions? Did you perform any operations on the data to tidy, adjust, or change the form of the data? If so, why did you do this?
 
 I didn't see anything unusual. There were few outliers in some of variables, but they didn't seem extreme to indicate bad data. I also didn't see any missing values in the dataset, either.
 
@@ -401,9 +398,7 @@ Interesting thing to see in the boxplot is quality category 8 has the lowest med
 # Bivariate Analysis
 
 
-### Talk about some of the relationships you observed in this part of the \
-investigation. How did the feature(s) of interest vary with other features in \
-the dataset?
+### Talk about some of the relationships you observed in this part of the investigation. How did the feature(s) of interest vary with other features in the dataset?
 
 I observed alcohol, volatile acidity, and citric acid are 3 strongest relationship to quality.
 When Alcohol or citric acid increases, quality of wine increases.  When volatile acidity decreases, quality of wine decreases.
@@ -416,8 +411,7 @@ The trend between citric acid and quality is very clear. Worst quality category 
  
 To my surprise, residual sugar has very weak correlation with quality. 
 
-### Did you observe any interesting relationships between the other features \
-(not the main feature(s) of interest)?
+### Did you observe any interesting relationships between the other features (not the main feature(s) of interest)?
 
 I observed moderate correlation between features which are related to each other.
 
