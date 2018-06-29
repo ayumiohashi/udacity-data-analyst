@@ -1,7 +1,7 @@
 # udacity-data-analyst
  Projects from Data Analyst Nanodegree Program at Udacity
 
-\# | Description | Used
+\# | Description | &nbsp;
 ------------ | ------------- | -------------
 01 | US Bike Share Analysis | Python
 02 | Stroop Effect Test Analysis | Python
@@ -11,3 +11,4 @@
 06 | Twitter Data Analysis | Python
 07 | Movie Data Story | Tableau
 08 | Flight Data Story | Tableau
+09 | Reports From Database | SQL (SQLight)

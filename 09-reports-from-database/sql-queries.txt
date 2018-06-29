@@ -1,0 +1,107 @@
+1. Number of products in stock per category
+
+SELECT
+    p.CategoryID,
+    c.CategoryName,
+    SUM(p.UnitsInStock) TotalUnitsInStock
+FROM Products p
+JOIN Categories c
+ON p.CategoryID = c.CategoryID
+GROUP BY p.CategoryID, c.CategoryName
+ORDER BY TotalUnitsInStock DESC
+
+---------------------------------------------------------------
+2. Amount sold for the top 10 selling products
+
+SELECT
+    p.ProductID,
+    p.ProductName,
+    SUM(od.Quantity) * od.UnitPrice Total
+FROM Products p
+JOIN OrderDetails od
+    ON p.ProductID = od.ProductID
+GROUP BY p.ProductID, p.ProductName
+ORDER BY Total DESC
+LIMIT 10
+
+---------------------------------------------------------------
+3. #1 selling product & products sold less than $2000
+
+WITH TotalAmountSoldPerProduct AS (
+    SELECT 
+        p.ProductID ProductID,
+        p.ProductName ProductName,
+        SUM(od.Quantity) * od.UnitPrice TotalAmountSold
+    FROM Products p
+    JOIN OrderDetails od
+        ON p.ProductID = od.ProductID
+    GROUP BY p.ProductId, p.ProductName
+)
+
+SELECT 
+    ProductID,
+    ProductName,
+    MAX(TotalAmountSold) TotalAmountSold
+FROM TotalAmountSoldPerProduct 
+
+UNION ALL
+
+SELECT 
+    p.ProductID,
+    p.ProductName,
+    SUM(od.Quantity) * od.UnitPrice TotalAmountSold
+FROM Products p
+JOIN OrderDetails od
+    ON p.ProductID = od.ProductID
+GROUP BY p.ProductId, p.ProductName
+HAVING SUM(od.Quantity) * od.UnitPrice < 2000
+ORDER BY TotalAmountSold DESC
+
+---------------------------------------------------------------
+4. Total quantity of each product ordered in 2015
+
+WITH OrdersIn2015 AS
+( 
+    SELECT
+        OrderId
+    FROM Orders
+    WHERE strftime('%Y', OrderDate) = '2015'
+)
+
+SELECT
+    p.ProductID,
+    p.ProductName,
+    SUM(od.quantity) TotalQuantity
+FROM Products p
+JOIN OrderDetails od
+    ON p.ProductID = od.ProductID
+JOIN OrdersIn2015 oi
+    ON oi.OrderID = od.OrderID
+GROUP BY p.ProductID, p.ProductName
+ORDER BY TotalQuantity DESC
+
+---------------------------------------------------------------
+5. Products sold in dollar amount by selling tier
+
+WITH ProductsSellingTier AS
+(
+    SELECT 
+        p.ProductID,
+        p.ProductName,
+        SUM(od.Quantity) * od.UnitPrice TotalAmountSold,
+        CASE WHEN SUM(od.Quantity) * od.UnitPrice > 50000 THEN 'top'
+        WHEN SUM(od.Quantity) * od.UnitPrice > 4000 THEN 'average'
+        ELSE 'bottom' END AS SellingTier
+    FROM Products p
+    JOIN OrderDetails od
+        ON p.ProductID = od.ProductID
+    GROUP BY p.ProductId, p.ProductName
+)
+
+SELECT 
+    SellingTier,
+    COUNT(*) as NumberOfProductsInTier
+FROM ProductsSellingTier
+GROUP BY SellingTier
+
+
