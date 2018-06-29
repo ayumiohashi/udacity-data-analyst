@@ -1,7 +1,7 @@
-This project was done by Ayumi Ohashi as part of Udacity Data Analyst
-Nanodegree Program.
+These projects were done by Ayumi Ohashi as part of Udacity Data Analyst and
+Business Analyst Nanodegree Program.
 
-You can use it as a reference, but please do not claim, imply, or 
+You can use it as a reference, but please do not claim, imply, or
 submit it as your own work.  
 
 [Udacity Honor Code](https://www.udacity.com/legal/community-guidelines)<br/>
