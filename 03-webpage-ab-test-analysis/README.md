@@ -8,4 +8,4 @@ Understand the results of an A/B test run by an e-commerce website and help the 
 
 * `countries.csv` - user id and country where user is from.
 
-### <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/03-webpage-ab-test-analysis/webpage-ab-test-analysis.ipynb">Findings and Recommendation</a>
+### <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/03-webpage-ab-test-analysis/webpage-ab-test-analysis.ipynb">Findings and Conclusions</a>
