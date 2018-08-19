@@ -1,14 +1,14 @@
 # udacity-data-analyst
- Projects from Data Analyst Nanodegree Program at Udacity
+Projects from Data Analyst Nanodegree Program at Udacity
 
 Project | Description | &nbsp;
 ------------ | ------------- | -------------
-01 | US Bike Share Analysis | Python
-02 | Stroop Effect Test Analysis | Python
-03 | Webpage A/B Test Analysis | Python
-04 | FBI Gun Data Analysis | Python
-05 | Red Wine Data Analysis | R
-06 | Twitter Data Analysis | Python
-07 | Movie Data Story | Tableau
-08 | Flight Data Story | Tableau
-09 | Reports From Database | SQL (SQLight)
+01 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/01-us-bike-share-analysis">US Bike Share Analysis</a> | Python
+02 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/02-stroop-effect-test-analysis">Stroop Effect Test Analysis</a> | Python
+03 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/03-webpage-ab-test-analysis">Webpage A/B Test Analysis</a> | Python
+04 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/04-fbi-gun-data-analysis">FBI Gun Data Analysis</a> | Python
+05 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/05-red-wine-data-analysis">Red Wine Data Analysis</a> | R
+06 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/06-twitter-data-analysis"><b>Capstone Project</b><br/>Twitter Data Analysis</a> | Python
+07 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/07-movie-data-tableau-story">Movie Data Story</a> | Tableau
+08 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/08-flight-data-tableau-story">Flight Data Story</a> | Tableau
+09 | <a href="https://github.com/ayumiohashi/udacity-data-analyst/tree/master/09-reports-from-database">Reports From Database | SQL (SQLight)
