@@ -1,7 +1,6 @@
 ## Flight Data Tableau Story
 
 Analyzed 2008 [flight data](http://stat-computing.org/dataexpo/2009/the-data.html) and created several data visualizations.  
-Link to my [Flight Data Tableau Public workbook](https://public.tableau.com/views/FlightDataModified/FlightDataAnalysis)
 
 ### Data
 
@@ -44,3 +43,6 @@ CityState|'City, State' airport is located
 2.	Which airline has the worst on-time performance?
 3.	Does more flight distance cause delays?
 4.	Which airport has the worst on-time performance?
+
+### Data Visualizations
+[Flight Data Tableau Public Workbook](https://public.tableau.com/views/FlightDataModified/FlightDataAnalysis)

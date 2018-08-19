@@ -1,7 +1,6 @@
 ## Movie Data Tableau Story
 
 Analyzed movie data and created several data visualizations.  
-Link to my [Movie Data Tableau Public workbook](https://public.tableau.com/profile/ayumi.ohashi#!/vizhome/MovieDataModified/MovieData)
 
 ### Data
 
@@ -30,3 +29,6 @@ is_based_on_novel|Movie is based on novel or not
 - How do the attributes differ between Universal Pictures and Paramount Pictures?
 - How have movies based on novels performed relative to movies not based on novels?
 - What can you tell about relationships between budget and revenue?
+
+### Data Visualizations
+[Movie Data Tableau Public Workbook](https://public.tableau.com/profile/ayumi.ohashi#!/vizhome/MovieDataModified/MovieData)

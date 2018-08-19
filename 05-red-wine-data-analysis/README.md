@@ -27,4 +27,4 @@ Variables (based on physicochemical tests):
 
 Which chemical properties and how are they influence the quality of red wines?
 
-### <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/05-red-wine-data-analysis/red-wine-quality-data-analysis.pdf">Findings</a>
+### <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/05-red-wine-data-analysis/red-wine-quality-data-analysis.pdf">Findings and Conclusions</a>

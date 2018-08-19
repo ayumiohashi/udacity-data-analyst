@@ -34,6 +34,5 @@ The dataset that I will be wrangling (and analyzing and visualizing) is the twee
 - Which variables are associated with retweets and favorite counts?
 
 ### Findings and Summary
-- <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/06-twitter-data-analysis/twitter-data-analysis.ipynb">Findings</a>
-- <a href="
-https://github.com/ayumiohashi/udacity-data-analyst/blob/master/06-twitter-data-analysis/reports/analysis-summary.pdfSummary">Summary</a>
+- <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/06-twitter-data-analysis/twitter-data-analysis.ipynb">Findings and Conclusions</a>
+- <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/06-twitter-data-analysis/reports/analysis-summary.pdfSummary">Summary</a>
