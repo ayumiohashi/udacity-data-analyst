@@ -14,3 +14,6 @@ Management in a wholesaler of various food products wants some high level metric
 ### Database
 
 ![](image/database.png)
+
+### <a href=" https://github.com/ayumiohashi/udacity-data-analyst/blob/master/09-reports-from-database/reports.pdf">Reports</a>
+<a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/09-reports-from-database/sql-queries.txt">SQL queries</a> used to generate reports

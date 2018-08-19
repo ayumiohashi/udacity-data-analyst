@@ -13,3 +13,5 @@ The data (Original source [Github](https://github.com/BuzzFeedNews/nics-firearm-
 
 * Which states have had the highest growth in gun registrations?
 * What census data is most associated with high gun per capita?
+
+### <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/04-fbi-gun-data-analysis/fbi-gun-data-analysis.ipynb">Findings</a>

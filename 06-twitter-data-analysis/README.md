@@ -32,3 +32,8 @@ The dataset that I will be wrangling (and analyzing and visualizing) is the twee
 - How good the image prediction algorithm was to predict dog images?
 - Are top breeds of dogs associated with rating?
 - Which variables are associated with retweets and favorite counts?
+
+### Findings and Summary
+- <a href="https://github.com/ayumiohashi/udacity-data-analyst/blob/master/06-twitter-data-analysis/twitter-data-analysis.ipynb">Findings</a>
+- <a href="
+https://github.com/ayumiohashi/udacity-data-analyst/blob/master/06-twitter-data-analysis/reports/analysis-summary.pdfSummary">Summary</a>
