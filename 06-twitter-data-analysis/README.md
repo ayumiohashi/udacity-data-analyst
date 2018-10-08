@@ -13,17 +13,17 @@ The dataset that I will be wrangling (and analyzing and visualizing) is the twee
 ### Data
 
 `twitter-archive-enhanced.csv`: twitter data
-	- basic tweet data
-	- each tweet's text
-	- rating numerator
-	- rating denominator
-	- dog name
-	- dog "stage" (i.e. doggo, floofer, pupper, and puppo)
+- basic tweet data
+- each tweet's text
+- rating numerator
+- rating denominator
+- dog name
+- dog "stage" (i.e. doggo, floofer, pupper, and puppo)
 
 `image_predictions.tsv`: image prediction data
-	- #1 to #3 of prediction for the image in the tweet
-	- #1 to #3 of confidence of the algorithm
-	- #1 to #3 of predicted a breed of dog
+- #1 to #3 of prediction for the image in the tweet
+- #1 to #3 of confidence of the algorithm
+- #1 to #3 of predicted a breed of dog
 
 `tweet_json.txt`: additional twitter data via API
 
